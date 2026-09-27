@@ -10,7 +10,7 @@ A Wisej.NET 4.1 sales dashboard for the classic **Northwind Traders** sample dat
 dotnet run --project Wisej.NorthwindDashboard -f net10.0
 ```
 
-Open http://localhost:5090/Default.html. In Visual Studio, set `Wisej.NorthwindDashboard` as the startup project and press F5. As with the test app, running requires a Wisej.NET development or trial license.
+Open http://localhost:5090/Default.html. In Visual Studio, set `Wisej.NorthwindDashboard` as the startup project and press F5. As with the test app, running requires a Wisej.NET development or trial license. 
 
 ## What's inside
 
