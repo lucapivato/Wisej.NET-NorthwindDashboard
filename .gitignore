@@ -1,0 +1,7 @@
+**/bin/
+**/obj/
+.tools/
+.vs/
+TestResults/
+CommandCenter.config
+OpenObserve.config
