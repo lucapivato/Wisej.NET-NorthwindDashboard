@@ -3,6 +3,5 @@
   "startup": "Wisej.NorthwindDashboard.SessionStartup.Start, Wisej.NorthwindDashboard",
   "theme": "Bootstrap-4",
   "culture": "en-US",
-  "debug": true,
-  "sessionTimeout": 1800
+  "debug": true
 }
