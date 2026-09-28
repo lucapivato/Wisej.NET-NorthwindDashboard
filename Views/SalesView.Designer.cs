@@ -48,6 +48,7 @@ namespace Wisej.NorthwindDashboard.Views
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SalesView));
 			Wisej.Web.ComponentTool componentTool1 = new Wisej.Web.ComponentTool();
 			Wisej.Web.DataGridViewCellStyle dataGridViewCellStyle1 = new Wisej.Web.DataGridViewCellStyle();
 			Wisej.Web.DataGridViewCellStyle dataGridViewCellStyle2 = new Wisej.Web.DataGridViewCellStyle();
@@ -439,7 +440,7 @@ namespace Wisej.NorthwindDashboard.Views
 			this.colPeriod.AutoSizeMode = Wisej.Web.DataGridViewAutoSizeColumnMode.Fill;
 			this.colPeriod.DataPropertyName = "Label";
 			this.colPeriod.HeaderText = "PERIOD";
-			this.colPeriod.MinimumWidth = 200;
+			this.colPeriod.MinimumWidth = 130;
 			this.colPeriod.Name = "colPeriod";
 			this.colPeriod.SubtitleMember = "PeriodText";
 			//
@@ -453,6 +454,7 @@ namespace Wisej.NorthwindDashboard.Views
 			this.colPeriodOrders.HeaderStyle = dataGridViewCellStyle6;
 			this.colPeriodOrders.HeaderText = "ORDERS";
 			this.colPeriodOrders.Name = "colPeriodOrders";
+			this.colPeriodOrders.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("colPeriodOrders.ResponsiveProfiles"))));
 			this.colPeriodOrders.Width = 110;
 			//
 			// colPeriodRevenue
@@ -465,6 +467,7 @@ namespace Wisej.NorthwindDashboard.Views
 			this.colPeriodRevenue.HeaderStyle = dataGridViewCellStyle8;
 			this.colPeriodRevenue.HeaderText = "REVENUE";
 			this.colPeriodRevenue.Name = "colPeriodRevenue";
+			this.colPeriodRevenue.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("colPeriodRevenue.ResponsiveProfiles"))));
 			this.colPeriodRevenue.Width = 150;
 			//
 			// colPeriodAverage
@@ -477,6 +480,7 @@ namespace Wisej.NorthwindDashboard.Views
 			this.colPeriodAverage.HeaderStyle = dataGridViewCellStyle10;
 			this.colPeriodAverage.HeaderText = "AVERAGE ORDER";
 			this.colPeriodAverage.Name = "colPeriodAverage";
+			this.colPeriodAverage.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("colPeriodAverage.ResponsiveProfiles"))));
 			this.colPeriodAverage.Width = 150;
 			//
 			// colPeriodPrevious
@@ -489,6 +493,8 @@ namespace Wisej.NorthwindDashboard.Views
 			this.colPeriodPrevious.HeaderStyle = dataGridViewCellStyle12;
 			this.colPeriodPrevious.HeaderText = "COMPARISON";
 			this.colPeriodPrevious.Name = "colPeriodPrevious";
+			this.colPeriodPrevious.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("colPeriodPrevious.ResponsiveProfiles"))));
+			this.colPeriodPrevious.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("colPeriodPrevious.ResponsiveProfiles1"))));
 			this.colPeriodPrevious.Width = 150;
 			//
 			// colPeriodChange
@@ -496,6 +502,7 @@ namespace Wisej.NorthwindDashboard.Views
 			this.colPeriodChange.DataPropertyName = "ChangeText";
 			this.colPeriodChange.HeaderText = "CHANGE";
 			this.colPeriodChange.Name = "colPeriodChange";
+			this.colPeriodChange.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("colPeriodChange.ResponsiveProfiles"))));
 			this.colPeriodChange.ToneMember = "ChangeTone";
 			this.colPeriodChange.Width = 120;
 			//

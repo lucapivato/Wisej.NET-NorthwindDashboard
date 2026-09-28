@@ -48,6 +48,7 @@ namespace Wisej.NorthwindDashboard.Dialogs
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OrderDialog));
 			Wisej.Web.Step step1 = new Wisej.Web.Step();
 			Wisej.Web.Step step2 = new Wisej.Web.Step();
 			Wisej.Web.Step step3 = new Wisej.Web.Step();
@@ -158,6 +159,7 @@ namespace Wisej.NorthwindDashboard.Dialogs
 			this.partiesPanel.Dock = Wisej.Web.DockStyle.Top;
 			this.partiesPanel.Location = new System.Drawing.Point(24, 164);
 			this.partiesPanel.Name = "partiesPanel";
+			this.partiesPanel.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("partiesPanel.ResponsiveProfiles"))));
 			this.partiesPanel.Size = new System.Drawing.Size(772, 104);
 			this.partiesPanel.TabIndex = 2;
 			//
@@ -166,6 +168,7 @@ namespace Wisej.NorthwindDashboard.Dialogs
 			this.shipToLabel.AppearanceKey = "nw-subtitle";
 			this.shipToLabel.Location = new System.Drawing.Point(0, 58);
 			this.shipToLabel.Name = "shipToLabel";
+			this.shipToLabel.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("shipToLabel.ResponsiveProfiles"))));
 			this.shipToLabel.Size = new System.Drawing.Size(420, 40);
 			this.shipToLabel.TabIndex = 1;
 			this.shipToLabel.Text = "Ship to";
@@ -176,6 +179,7 @@ namespace Wisej.NorthwindDashboard.Dialogs
 			this.salesRepAvatar.Label = "Sales rep";
 			this.salesRepAvatar.Location = new System.Drawing.Point(472, 6);
 			this.salesRepAvatar.Name = "salesRepAvatar";
+			this.salesRepAvatar.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("salesRepAvatar.ResponsiveProfiles"))));
 			this.salesRepAvatar.Size = new System.Drawing.Size(300, 48);
 			this.salesRepAvatar.SubLabel = "Title";
 			this.salesRepAvatar.TabIndex = 2;
@@ -187,6 +191,7 @@ namespace Wisej.NorthwindDashboard.Dialogs
 			this.customerAvatar.Label = "Customer";
 			this.customerAvatar.Location = new System.Drawing.Point(0, 6);
 			this.customerAvatar.Name = "customerAvatar";
+			this.customerAvatar.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("customerAvatar.ResponsiveProfiles"))));
 			this.customerAvatar.Shape = Wisej.Web.AvatarShape.Rounded;
 			this.customerAvatar.Size = new System.Drawing.Size(420, 48);
 			this.customerAvatar.SubLabel = "Contact";
@@ -248,6 +253,7 @@ namespace Wisej.NorthwindDashboard.Dialogs
 			this.colUnitPrice.HeaderStyle = dataGridViewCellStyle5;
 			this.colUnitPrice.HeaderText = "UNIT PRICE";
 			this.colUnitPrice.Name = "colUnitPrice";
+			this.colUnitPrice.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("colUnitPrice.ResponsiveProfiles"))));
 			this.colUnitPrice.Width = 110;
 			//
 			// colDiscount
@@ -260,6 +266,7 @@ namespace Wisej.NorthwindDashboard.Dialogs
 			this.colDiscount.HeaderStyle = dataGridViewCellStyle7;
 			this.colDiscount.HeaderText = "DISCOUNT";
 			this.colDiscount.Name = "colDiscount";
+			this.colDiscount.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("colDiscount.ResponsiveProfiles"))));
 			this.colDiscount.Width = 96;
 			//
 			// colTotal
@@ -283,6 +290,7 @@ namespace Wisej.NorthwindDashboard.Dialogs
 			this.footerPanel.Dock = Wisej.Web.DockStyle.Bottom;
 			this.footerPanel.Location = new System.Drawing.Point(24, 514);
 			this.footerPanel.Name = "footerPanel";
+			this.footerPanel.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("footerPanel.ResponsiveProfiles"))));
 			this.footerPanel.Size = new System.Drawing.Size(772, 64);
 			this.footerPanel.TabIndex = 4;
 			//
@@ -293,6 +301,7 @@ namespace Wisej.NorthwindDashboard.Dialogs
 			this.totalsLabel.AppearanceKey = "nw-strong";
 			this.totalsLabel.Location = new System.Drawing.Point(0, 20);
 			this.totalsLabel.Name = "totalsLabel";
+			this.totalsLabel.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("totalsLabel.ResponsiveProfiles"))));
 			this.totalsLabel.Size = new System.Drawing.Size(460, 24);
 			this.totalsLabel.TabIndex = 0;
 			this.totalsLabel.Text = "Total";

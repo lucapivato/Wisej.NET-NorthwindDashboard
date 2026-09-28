@@ -117,4 +117,55 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="colUnitPrice.ResponsiveProfiles" type="Wisej.Base.ResponsiveProfile, Wisej.Framework" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        PFJlc3BvbnNpdmVQcm9maWxlIE5hbWU9IlBob25lIj48VmlzaWJsZSBUeXBlPSJTeXN0ZW0uQm9vbGVh
+        biI+RmFsc2U8L1Zpc2libGU+PC9SZXNwb25zaXZlUHJvZmlsZT4=
+    </value>
+  </data>
+  <data name="colDiscount.ResponsiveProfiles" type="Wisej.Base.ResponsiveProfile, Wisej.Framework" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        PFJlc3BvbnNpdmVQcm9maWxlIE5hbWU9IlBob25lIj48VmlzaWJsZSBUeXBlPSJTeXN0ZW0uQm9vbGVh
+        biI+RmFsc2U8L1Zpc2libGU+PC9SZXNwb25zaXZlUHJvZmlsZT4=
+    </value>
+  </data>
+  <data name="partiesPanel.ResponsiveProfiles" type="Wisej.Base.ResponsiveProfile, Wisej.Framework" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        PFJlc3BvbnNpdmVQcm9maWxlIE5hbWU9IlBob25lIj48U2l6ZSBUeXBlPSJTaXplIj43NzIsIDE1ODwv
+        U2l6ZT48L1Jlc3BvbnNpdmVQcm9maWxlPg==
+    </value>
+  </data>
+  <data name="customerAvatar.ResponsiveProfiles" type="Wisej.Base.ResponsiveProfile, Wisej.Framework" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        PFJlc3BvbnNpdmVQcm9maWxlIE5hbWU9IlBob25lIj48U2l6ZSBUeXBlPSJTaXplIj4zMDAsIDQ4PC9T
+        aXplPjwvUmVzcG9uc2l2ZVByb2ZpbGU+
+    </value>
+  </data>
+  <data name="salesRepAvatar.ResponsiveProfiles" type="Wisej.Base.ResponsiveProfile, Wisej.Framework" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        PFJlc3BvbnNpdmVQcm9maWxlIE5hbWU9IlBob25lIj48QW5jaG9yIFR5cGU9Ildpc2VqLldlYi5BbmNo
+        b3JTdHlsZXMsIFdpc2VqLkZyYW1ld29yayI+VG9wLCBMZWZ0PC9BbmNob3I+PExvY2F0aW9uIFR5cGU9
+        IlBvaW50Ij4wLCA1ODwvTG9jYXRpb24+PC9SZXNwb25zaXZlUHJvZmlsZT4=
+    </value>
+  </data>
+  <data name="shipToLabel.ResponsiveProfiles" type="Wisej.Base.ResponsiveProfile, Wisej.Framework" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        PFJlc3BvbnNpdmVQcm9maWxlIE5hbWU9IlBob25lIj48TG9jYXRpb24gVHlwZT0iUG9pbnQiPjAsIDEx
+        MjwvTG9jYXRpb24+PFNpemUgVHlwZT0iU2l6ZSI+MzAwLCA0MDwvU2l6ZT48L1Jlc3BvbnNpdmVQcm9m
+        aWxlPg==
+    </value>
+  </data>
+  <data name="footerPanel.ResponsiveProfiles" type="Wisej.Base.ResponsiveProfile, Wisej.Framework" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        PFJlc3BvbnNpdmVQcm9maWxlIE5hbWU9IlBob25lIj48U2l6ZSBUeXBlPSJTaXplIj43NzIsIDk2PC9T
+        aXplPjwvUmVzcG9uc2l2ZVByb2ZpbGU+
+    </value>
+  </data>
+  <data name="totalsLabel.ResponsiveProfiles" type="Wisej.Base.ResponsiveProfile, Wisej.Framework" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        PFJlc3BvbnNpdmVQcm9maWxlIE5hbWU9IlBob25lIj48RG9jayBUeXBlPSJXaXNlai5XZWIuRG9ja1N0
+        eWxlLCBXaXNlai5GcmFtZXdvcmsiPkJvdHRvbTwvRG9jaz48U2l6ZSBUeXBlPSJTaXplIj43NzIsIDI4
+        PC9TaXplPjwvUmVzcG9uc2l2ZVByb2ZpbGU+
+    </value>
+  </data>
 </root>

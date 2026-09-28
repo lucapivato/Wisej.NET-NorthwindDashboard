@@ -53,6 +53,25 @@ These changes last for the session only.
 - Chart colors follow the library palette with a fixed categorical order per entity (category or shipper identifier), validated for color-vision deficiencies. Comparison periods use a de-emphasized gray, status colors are reserved for states, and multi-category charts are paired with a table showing the same values.
 - Icons in `Assets/Icons` are outline SVGs that Wisej tints with the widget text color.
 
+## Responsive layout
+
+`ClientProfiles.json` defines two Wisej client profiles by browser width, so they switch on a phone, on a tablet and when a desktop window is resized: **Phone** (up to 767 px) and **Tablet** (up to 1199 px). Wider browsers get the designed layout, the Default profile.
+
+| Area | Tablet | Phone |
+| --- | --- | --- |
+| Shell | Sidebar as a 64 px icon rail with tooltips; search button and avatar collapse | Sidebar hidden behind a menu button; period selector and search on a second row |
+| Cards | KPI tiles two by two, every other card full width | One card per row |
+| Grids | Secondary columns hidden (sales rep, lines, delivery, trend, …) | Only the key columns |
+| Orders toolbar | Status chips above the search box | Same, with an icon-only filter button |
+| Order dialog | — | Full screen; parties and totals stacked |
+
+Most of this is **responsive properties** set per profile, the way the Wisej designer stores them: an entry `control.ResponsiveProfiles` in the form's `.resx` and a `ResponsiveProfiles.Add(...)` line in `InitializeComponent` (Visible, Size, Location, Dock, Padding, Display, MinimumSize, column Width and Visible). What responsive properties cannot express is done in `ResponsiveProfileChanged` handlers:
+
+- `Views/CardLayout.cs` reflows each view's 12-column table. A card's cell and span are properties the table extends it with, which responsive profiles do not store, so it derives the narrow layouts from the designed one. A card keeps its row's height, or its per-profile `MinimumSize` height when larger.
+- `MainPage` sets the rail tooltips and narrows the command palette; `OrdersView` changes the toolbar row's height.
+
+Every profile of a control sets the same properties, filling in the designed value where needed. Wisej records a control's Default values only for the properties of the profile being entered, so a property only one profile sets would otherwise stay at that value after going Default → Tablet → Phone → Default.
+
 ## Layout
 
 ```

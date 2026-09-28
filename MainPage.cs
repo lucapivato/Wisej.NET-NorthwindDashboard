@@ -86,6 +86,7 @@ namespace Wisej.NorthwindDashboard
 		private readonly List<PaletteCommand> recordCommands = new List<PaletteCommand>();
 		private readonly Dictionary<int, PaletteCommand> orderCommands = new Dictionary<int, PaletteCommand>();
 		private DashboardView current;
+		private ContextMenu areaMenu;
 
 		private void ShowArea(DashboardArea area, object target = null)
 		{
@@ -258,6 +259,41 @@ namespace Wisej.NorthwindDashboard
 		};
 
 		private void navButton_Click(object sender, EventArgs e) => ShowArea((DashboardArea)((Button)sender).Tag);
+
+		// The Phone profile hides the sidebar and shows the menu button; the menu lists the same areas.
+		private void menuButton_Click(object sender, EventArgs e)
+		{
+			if (areaMenu == null)
+			{
+				areaMenu = new ContextMenu(components);
+				foreach (var area in Enum.GetValues<DashboardArea>())
+					areaMenu.MenuItems.Add(new MenuItem(area.ToString()) { IconSource = DashboardStyle.AreaIcon(area), Tag = area });
+
+				areaMenu.MenuItemClicked += (s, args) => ShowArea((DashboardArea)args.MenuItem.Tag);
+			}
+
+			areaMenu.Show(menuButton, Placement.BottomLeft);
+		}
+
+		/// <summary>
+		/// Completes what the responsive properties in the designer cannot express.
+		/// </summary>
+		/// <param name="e">Event data.</param>
+		/// <remarks>
+		/// The designer sets each profile's layout (MainPage.resx): the Tablet profile turns the sidebar into an icon
+		/// rail, and the Phone profile hides it behind the menu button. Tooltips name the icons while they have no text,
+		/// and the command palette narrows to the screen.
+		/// </remarks>
+		protected override void OnResponsiveProfileChanged(ResponsiveProfileChangedEventArgs e)
+		{
+			base.OnResponsiveProfileChanged(e);
+
+			bool iconRail = e.CurrentProfile.Name == "Tablet";
+			foreach (var pair in navigation)
+				pair.Value.ToolTipText = iconRail ? pair.Key.ToString() : null;
+
+			commandPalette.Width = e.CurrentProfile.Name == "Phone" ? Math.Min(640, Application.Browser.Size.Width - 24) : 640;
+		}
 
 		private void periodSelector_SelectionChanged(object sender, EventArgs e)
 		{

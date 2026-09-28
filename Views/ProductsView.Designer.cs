@@ -48,6 +48,7 @@ namespace Wisej.NorthwindDashboard.Views
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ProductsView));
 			Wisej.Web.DataGridViewCellStyle dataGridViewCellStyle1 = new Wisej.Web.DataGridViewCellStyle();
 			Wisej.Web.DataGridViewCellStyle dataGridViewCellStyle2 = new Wisej.Web.DataGridViewCellStyle();
 			Wisej.Web.DataGridViewCellStyle dataGridViewCellStyle3 = new Wisej.Web.DataGridViewCellStyle();
@@ -127,6 +128,8 @@ namespace Wisej.NorthwindDashboard.Views
 			this.inventoryCard.Location = new System.Drawing.Point(24, 24);
 			this.inventoryCard.Margin = new Wisej.Web.Padding(8);
 			this.inventoryCard.Name = "inventoryCard";
+			this.inventoryCard.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("inventoryCard.ResponsiveProfiles"))));
+			this.inventoryCard.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("inventoryCard.ResponsiveProfiles1"))));
 			this.inventoryCard.ShowHeader = true;
 			this.inventoryCard.Size = new System.Drawing.Size(768, 140);
 			this.inventoryCard.TabIndex = 0;
@@ -136,6 +139,8 @@ namespace Wisej.NorthwindDashboard.Views
 			//
 			this.discontinuedChip.Location = new System.Drawing.Point(600, 56);
 			this.discontinuedChip.Name = "discontinuedChip";
+			this.discontinuedChip.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("discontinuedChip.ResponsiveProfiles"))));
+			this.discontinuedChip.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("discontinuedChip.ResponsiveProfiles1"))));
 			this.discontinuedChip.Selectable = true;
 			this.discontinuedChip.ShowDot = true;
 			this.discontinuedChip.Size = new System.Drawing.Size(138, 28);
@@ -148,6 +153,8 @@ namespace Wisej.NorthwindDashboard.Views
 			//
 			this.outOfStockChip.Location = new System.Drawing.Point(454, 56);
 			this.outOfStockChip.Name = "outOfStockChip";
+			this.outOfStockChip.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("outOfStockChip.ResponsiveProfiles"))));
+			this.outOfStockChip.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("outOfStockChip.ResponsiveProfiles1"))));
 			this.outOfStockChip.Selectable = true;
 			this.outOfStockChip.ShowDot = true;
 			this.outOfStockChip.Size = new System.Drawing.Size(138, 28);
@@ -161,6 +168,8 @@ namespace Wisej.NorthwindDashboard.Views
 			//
 			this.reorderChip.Location = new System.Drawing.Point(308, 56);
 			this.reorderChip.Name = "reorderChip";
+			this.reorderChip.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("reorderChip.ResponsiveProfiles"))));
+			this.reorderChip.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("reorderChip.ResponsiveProfiles1"))));
 			this.reorderChip.Selectable = true;
 			this.reorderChip.ShowDot = true;
 			this.reorderChip.Size = new System.Drawing.Size(138, 28);
@@ -174,6 +183,8 @@ namespace Wisej.NorthwindDashboard.Views
 			//
 			this.incomingChip.Location = new System.Drawing.Point(162, 56);
 			this.incomingChip.Name = "incomingChip";
+			this.incomingChip.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("incomingChip.ResponsiveProfiles"))));
+			this.incomingChip.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("incomingChip.ResponsiveProfiles1"))));
 			this.incomingChip.Selectable = true;
 			this.incomingChip.ShowDot = true;
 			this.incomingChip.Size = new System.Drawing.Size(138, 28);
@@ -187,6 +198,8 @@ namespace Wisej.NorthwindDashboard.Views
 			//
 			this.inStockChip.Location = new System.Drawing.Point(16, 56);
 			this.inStockChip.Name = "inStockChip";
+			this.inStockChip.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("inStockChip.ResponsiveProfiles"))));
+			this.inStockChip.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("inStockChip.ResponsiveProfiles1"))));
 			this.inStockChip.Selectable = true;
 			this.inStockChip.ShowDot = true;
 			this.inStockChip.Size = new System.Drawing.Size(138, 28);
@@ -270,7 +283,7 @@ namespace Wisej.NorthwindDashboard.Views
 			this.colProduct.AutoSizeMode = Wisej.Web.DataGridViewAutoSizeColumnMode.Fill;
 			this.colProduct.DataPropertyName = "Name";
 			this.colProduct.HeaderText = "PRODUCT";
-			this.colProduct.MinimumWidth = 200;
+			this.colProduct.MinimumWidth = 150;
 			this.colProduct.Name = "colProduct";
 			this.colProduct.SubtitleMember = "DetailText";
 			//
@@ -284,6 +297,7 @@ namespace Wisej.NorthwindDashboard.Views
 			this.colPrice.HeaderStyle = dataGridViewCellStyle3;
 			this.colPrice.HeaderText = "PRICE";
 			this.colPrice.Name = "colPrice";
+			this.colPrice.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("colPrice.ResponsiveProfiles"))));
 			this.colPrice.Width = 76;
 			//
 			// colUnitsTrend
@@ -291,6 +305,7 @@ namespace Wisej.NorthwindDashboard.Views
 			this.colUnitsTrend.DataPropertyName = "UnitsTrend";
 			this.colUnitsTrend.HeaderText = "UNITS SOLD";
 			this.colUnitsTrend.Name = "colUnitsTrend";
+			this.colUnitsTrend.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("colUnitsTrend.ResponsiveProfiles"))));
 			this.colUnitsTrend.Width = 96;
 			//
 			// colStock
@@ -299,6 +314,7 @@ namespace Wisej.NorthwindDashboard.Views
 			this.colStock.HeaderText = "STOCK";
 			this.colStock.Maximum = 4D;
 			this.colStock.Name = "colStock";
+			this.colStock.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("colStock.ResponsiveProfiles"))));
 			this.colStock.TextMember = "StockText";
 			this.colStock.Width = 130;
 			//
@@ -324,6 +340,7 @@ namespace Wisej.NorthwindDashboard.Views
 			this.colActions.HeaderText = "";
 			this.colActions.IconOnly = true;
 			this.colActions.Name = "colActions";
+			this.colActions.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("colActions.ResponsiveProfiles"))));
 			this.colActions.Width = 80;
 			this.colActions.ActionClick += new System.EventHandler<Wisej.Web.DataGridViewVisualCellEventArgs>(this.colActions_ActionClick);
 			//

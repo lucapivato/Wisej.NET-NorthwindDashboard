@@ -48,6 +48,7 @@ namespace Wisej.NorthwindDashboard.Views
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OrdersView));
 			Wisej.Web.Segment segment1 = new Wisej.Web.Segment();
 			Wisej.Web.Segment segment2 = new Wisej.Web.Segment();
 			Wisej.Web.Segment segment3 = new Wisej.Web.Segment();
@@ -99,6 +100,7 @@ namespace Wisej.NorthwindDashboard.Views
 			this.layout.Location = new System.Drawing.Point(0, 0);
 			this.layout.Name = "layout";
 			this.layout.Padding = new Wisej.Web.Padding(16, 8, 16, 16);
+			this.layout.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("layout.ResponsiveProfiles"))));
 			this.layout.RowCount = 3;
 			this.layout.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Absolute, 60F));
 			this.layout.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Absolute, 0F));
@@ -109,8 +111,8 @@ namespace Wisej.NorthwindDashboard.Views
 			// toolbar
 			//
 			this.toolbar.AppearanceKey = "nw-view";
-			this.toolbar.Controls.Add(this.advancedButton);
 			this.toolbar.Controls.Add(this.searchBox);
+			this.toolbar.Controls.Add(this.advancedButton);
 			this.toolbar.Controls.Add(this.statusFilter);
 			this.toolbar.Dock = Wisej.Web.DockStyle.Fill;
 			this.toolbar.Location = new System.Drawing.Point(24, 16);
@@ -127,6 +129,8 @@ namespace Wisej.NorthwindDashboard.Views
 			this.advancedButton.ImageSource = "Assets/Icons/filter.svg";
 			this.advancedButton.Location = new System.Drawing.Point(990, 4);
 			this.advancedButton.Name = "advancedButton";
+			this.advancedButton.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("advancedButton.ResponsiveProfiles"))));
+			this.advancedButton.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("advancedButton.ResponsiveProfiles1"))));
 			this.advancedButton.Size = new System.Drawing.Size(170, 36);
 			this.advancedButton.TabIndex = 2;
 			this.advancedButton.Text = "Advanced filter";
@@ -139,6 +143,8 @@ namespace Wisej.NorthwindDashboard.Views
 			this.searchBox.Anchor = ((Wisej.Web.AnchorStyles)((Wisej.Web.AnchorStyles.Top | Wisej.Web.AnchorStyles.Right)));
 			this.searchBox.Location = new System.Drawing.Point(706, 4);
 			this.searchBox.Name = "searchBox";
+			this.searchBox.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("searchBox.ResponsiveProfiles"))));
+			this.searchBox.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("searchBox.ResponsiveProfiles1"))));
 			this.searchBox.Size = new System.Drawing.Size(272, 36);
 			this.searchBox.TabIndex = 1;
 			componentTool1.ImageSource = "Assets/Icons/search.svg";
@@ -169,6 +175,8 @@ namespace Wisej.NorthwindDashboard.Views
 			this.statusFilter.Items.Add(segment5);
 			this.statusFilter.Location = new System.Drawing.Point(0, 4);
 			this.statusFilter.Name = "statusFilter";
+			this.statusFilter.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("statusFilter.ResponsiveProfiles"))));
+			this.statusFilter.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("statusFilter.ResponsiveProfiles1"))));
 			this.statusFilter.ShowCounts = true;
 			this.statusFilter.Size = new System.Drawing.Size(640, 38);
 			this.statusFilter.TabIndex = 0;
@@ -264,6 +272,7 @@ namespace Wisej.NorthwindDashboard.Views
 			this.colOrder.DataPropertyName = "Number";
 			this.colOrder.HeaderText = "ORDER";
 			this.colOrder.Name = "colOrder";
+			this.colOrder.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("colOrder.ResponsiveProfiles"))));
 			this.colOrder.SubtitleMember = "DateText";
 			this.colOrder.Width = 120;
 			//
@@ -272,7 +281,7 @@ namespace Wisej.NorthwindDashboard.Views
 			this.colCustomer.AutoSizeMode = Wisej.Web.DataGridViewAutoSizeColumnMode.Fill;
 			this.colCustomer.DataPropertyName = "Customer";
 			this.colCustomer.HeaderText = "CUSTOMER";
-			this.colCustomer.MinimumWidth = 200;
+			this.colCustomer.MinimumWidth = 150;
 			this.colCustomer.Name = "colCustomer";
 			this.colCustomer.Size = 32;
 			this.colCustomer.SubTextMember = "CustomerPlace";
@@ -283,6 +292,8 @@ namespace Wisej.NorthwindDashboard.Views
 			this.colSalesRep.DataPropertyName = "SalesRep";
 			this.colSalesRep.HeaderText = "SALES REP";
 			this.colSalesRep.Name = "colSalesRep";
+			this.colSalesRep.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("colSalesRep.ResponsiveProfiles"))));
+			this.colSalesRep.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("colSalesRep.ResponsiveProfiles1"))));
 			this.colSalesRep.Size = 28;
 			this.colSalesRep.SubTextMember = "SalesRepTitle";
 			this.colSalesRep.Width = 200;
@@ -293,6 +304,7 @@ namespace Wisej.NorthwindDashboard.Views
 			this.colStatus.DataPropertyName = "StatusText";
 			this.colStatus.HeaderText = "STATUS";
 			this.colStatus.Name = "colStatus";
+			this.colStatus.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("colStatus.ResponsiveProfiles"))));
 			this.colStatus.ShowDot = true;
 			this.colStatus.ToneMember = "StatusTone";
 			this.colStatus.Width = 130;
@@ -302,6 +314,8 @@ namespace Wisej.NorthwindDashboard.Views
 			this.colDelivery.DataPropertyName = "DeliveryText";
 			this.colDelivery.HeaderText = "DELIVERY";
 			this.colDelivery.Name = "colDelivery";
+			this.colDelivery.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("colDelivery.ResponsiveProfiles"))));
+			this.colDelivery.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("colDelivery.ResponsiveProfiles1"))));
 			this.colDelivery.SubtitleMember = "Shipper";
 			this.colDelivery.Width = 180;
 			//
@@ -314,6 +328,8 @@ namespace Wisej.NorthwindDashboard.Views
 			this.colItems.HeaderStyle = dataGridViewCellStyle3;
 			this.colItems.HeaderText = "LINES";
 			this.colItems.Name = "colItems";
+			this.colItems.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("colItems.ResponsiveProfiles"))));
+			this.colItems.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("colItems.ResponsiveProfiles1"))));
 			this.colItems.Width = 70;
 			//
 			// colAmount
@@ -326,6 +342,7 @@ namespace Wisej.NorthwindDashboard.Views
 			this.colAmount.HeaderStyle = dataGridViewCellStyle5;
 			this.colAmount.HeaderText = "AMOUNT";
 			this.colAmount.Name = "colAmount";
+			this.colAmount.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("colAmount.ResponsiveProfiles"))));
 			this.colAmount.Width = 120;
 			//
 			// colActions
@@ -341,6 +358,7 @@ namespace Wisej.NorthwindDashboard.Views
 			this.colActions.HeaderText = "";
 			this.colActions.IconOnly = true;
 			this.colActions.Name = "colActions";
+			this.colActions.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("colActions.ResponsiveProfiles"))));
 			this.colActions.Width = 96;
 			this.colActions.ActionClick += new System.EventHandler<Wisej.Web.DataGridViewVisualCellEventArgs>(this.colActions_ActionClick);
 			//

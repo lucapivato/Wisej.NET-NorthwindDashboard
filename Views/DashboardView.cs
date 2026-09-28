@@ -20,6 +20,7 @@
 
 using System;
 using System.ComponentModel;
+using System.Linq;
 using Wisej.NorthwindDashboard.Data;
 using Wisej.Web;
 
@@ -132,6 +133,23 @@ namespace Wisej.NorthwindDashboard.Views
 		}
 
 		/// <summary>
+		/// Reflows the view's cards for the new client profile.
+		/// </summary>
+		/// <param name="e">Event data.</param>
+		/// <remarks>
+		/// Wisej raises the event after it has applied the responsive properties set in the designer, when the view is
+		/// created under a profile other than Default and whenever the browser crosses into another profile. See
+		/// <see cref="CardLayout"/> for the arrangements.
+		/// </remarks>
+		protected override void OnResponsiveProfileChanged(ResponsiveProfileChangedEventArgs e)
+		{
+			base.OnResponsiveProfileChanged(e);
+
+			cards ??= Controls.OfType<TableLayoutPanel>().Where(t => t.ColumnCount == 12).Select(t => new CardLayout(t)).FirstOrDefault();
+			cards?.Apply(e.CurrentProfile.Name);
+		}
+
+		/// <summary>
 		/// Detaches from the context before disposing.
 		/// </summary>
 		/// <param name="disposing">Whether managed resources are being released.</param>
@@ -148,6 +166,7 @@ namespace Wisej.NorthwindDashboard.Views
 		#region Implementation
 
 		private DashboardContext dashboard;
+		private CardLayout cards;
 		private bool stale;
 
 		// Refreshes now when visible (or when forced after a new context); otherwise defers until shown.

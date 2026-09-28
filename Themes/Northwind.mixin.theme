@@ -299,6 +299,39 @@
         }
       }
     },
+    "nw-icon-button": {
+      "inherit": "button",
+      "states": {
+        "default": {
+          "properties": {
+            "textColor": "nw-text-secondary",
+            "padding": 0,
+            "center": true,
+            "height": 40
+          },
+          "styles": {
+            "backgroundColor": "transparent",
+            "width": 0,
+            "radius": 8
+          }
+        },
+        "hovered": {
+          "properties": {
+            "textColor": "nw-text"
+          },
+          "styles": {
+            "backgroundColor": "nw-hover"
+          }
+        },
+        "focused": {
+          "styles": {
+            "backgroundColor": "nw-primary-soft",
+            "shadowSpreadRadius": 0,
+            "shadowBlurRadius": 0
+          }
+        }
+      }
+    },
     "nw-search": {
       "inherit": "button",
       "states": {

@@ -48,6 +48,7 @@ namespace Wisej.NorthwindDashboard.Views
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OverviewView));
 			Wisej.Web.ComponentTool componentTool1 = new Wisej.Web.ComponentTool();
 			Wisej.Web.ChartSeries chartSeries1 = new Wisej.Web.ChartSeries();
 			Wisej.Web.ChartSeries chartSeries2 = new Wisej.Web.ChartSeries();
@@ -378,7 +379,7 @@ namespace Wisej.NorthwindDashboard.Views
 			this.colProduct.AutoSizeMode = Wisej.Web.DataGridViewAutoSizeColumnMode.Fill;
 			this.colProduct.DataPropertyName = "Name";
 			this.colProduct.HeaderText = "PRODUCT";
-			this.colProduct.MinimumWidth = 160;
+			this.colProduct.MinimumWidth = 130;
 			this.colProduct.Name = "colProduct";
 			this.colProduct.SubtitleMember = "CategoryName";
 			//
@@ -388,6 +389,7 @@ namespace Wisej.NorthwindDashboard.Views
 			this.colUnitsTrend.DataPropertyName = "UnitsTrend";
 			this.colUnitsTrend.HeaderText = "UNITS SOLD";
 			this.colUnitsTrend.Name = "colUnitsTrend";
+			this.colUnitsTrend.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("colUnitsTrend.ResponsiveProfiles"))));
 			this.colUnitsTrend.Width = 130;
 
 			//
@@ -401,6 +403,7 @@ namespace Wisej.NorthwindDashboard.Views
 			this.colUnits.HeaderStyle = dataGridViewCellStyle2;
 			this.colUnits.HeaderText = "UNITS";
 			this.colUnits.Name = "colUnits";
+			this.colUnits.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("colUnits.ResponsiveProfiles"))));
 			this.colUnits.Width = 72;
 			//
 			// colRevenue
@@ -420,6 +423,7 @@ namespace Wisej.NorthwindDashboard.Views
 			this.colShare.DataPropertyName = "Share";
 			this.colShare.HeaderText = "SHARE";
 			this.colShare.Name = "colShare";
+			this.colShare.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("colShare.ResponsiveProfiles"))));
 			this.colShare.TextMember = "ShareText";
 			this.colShare.Width = 132;
 			//
