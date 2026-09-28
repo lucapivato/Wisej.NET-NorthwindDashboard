@@ -117,4 +117,100 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="colPrice.ResponsiveProfiles" type="Wisej.Base.ResponsiveProfile, Wisej.Framework" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        PFJlc3BvbnNpdmVQcm9maWxlIE5hbWU9IlBob25lIj48VmlzaWJsZSBUeXBlPSJTeXN0ZW0uQm9vbGVh
+        biI+RmFsc2U8L1Zpc2libGU+PC9SZXNwb25zaXZlUHJvZmlsZT4=
+    </value>
+  </data>
+  <data name="colUnitsTrend.ResponsiveProfiles" type="Wisej.Base.ResponsiveProfile, Wisej.Framework" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        PFJlc3BvbnNpdmVQcm9maWxlIE5hbWU9IlBob25lIj48VmlzaWJsZSBUeXBlPSJTeXN0ZW0uQm9vbGVh
+        biI+RmFsc2U8L1Zpc2libGU+PC9SZXNwb25zaXZlUHJvZmlsZT4=
+    </value>
+  </data>
+  <data name="colStock.ResponsiveProfiles" type="Wisej.Base.ResponsiveProfile, Wisej.Framework" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        PFJlc3BvbnNpdmVQcm9maWxlIE5hbWU9IlBob25lIj48VmlzaWJsZSBUeXBlPSJTeXN0ZW0uQm9vbGVh
+        biI+RmFsc2U8L1Zpc2libGU+PC9SZXNwb25zaXZlUHJvZmlsZT4=
+    </value>
+  </data>
+  <data name="colActions.ResponsiveProfiles" type="Wisej.Base.ResponsiveProfile, Wisej.Framework" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        PFJlc3BvbnNpdmVQcm9maWxlIE5hbWU9IlBob25lIj48VmlzaWJsZSBUeXBlPSJTeXN0ZW0uQm9vbGVh
+        biI+RmFsc2U8L1Zpc2libGU+PC9SZXNwb25zaXZlUHJvZmlsZT4=
+    </value>
+  </data>
+  <data name="inventoryCard.ResponsiveProfiles" type="Wisej.Base.ResponsiveProfile, Wisej.Framework" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        PFJlc3BvbnNpdmVQcm9maWxlIE5hbWU9IlBob25lIj48TWluaW11bVNpemUgVHlwZT0iU2l6ZSI+MCwg
+        MjI0PC9NaW5pbXVtU2l6ZT48L1Jlc3BvbnNpdmVQcm9maWxlPg==
+    </value>
+  </data>
+  <data name="inventoryCard.ResponsiveProfiles1" type="Wisej.Base.ResponsiveProfile, Wisej.Framework" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        PFJlc3BvbnNpdmVQcm9maWxlIE5hbWU9IlRhYmxldCI+PE1pbmltdW1TaXplIFR5cGU9IlNpemUiPjAs
+        IDE5MDwvTWluaW11bVNpemU+PC9SZXNwb25zaXZlUHJvZmlsZT4=
+    </value>
+  </data>
+  <data name="inStockChip.ResponsiveProfiles" type="Wisej.Base.ResponsiveProfile, Wisej.Framework" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        PFJlc3BvbnNpdmVQcm9maWxlIE5hbWU9IlBob25lIj48TG9jYXRpb24gVHlwZT0iUG9pbnQiPjE2LCA1
+        NjwvTG9jYXRpb24+PC9SZXNwb25zaXZlUHJvZmlsZT4=
+    </value>
+  </data>
+  <data name="inStockChip.ResponsiveProfiles1" type="Wisej.Base.ResponsiveProfile, Wisej.Framework" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        PFJlc3BvbnNpdmVQcm9maWxlIE5hbWU9IlRhYmxldCI+PExvY2F0aW9uIFR5cGU9IlBvaW50Ij4xNiwg
+        NTY8L0xvY2F0aW9uPjwvUmVzcG9uc2l2ZVByb2ZpbGU+
+    </value>
+  </data>
+  <data name="incomingChip.ResponsiveProfiles" type="Wisej.Base.ResponsiveProfile, Wisej.Framework" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        PFJlc3BvbnNpdmVQcm9maWxlIE5hbWU9IlBob25lIj48TG9jYXRpb24gVHlwZT0iUG9pbnQiPjE2Miwg
+        NTY8L0xvY2F0aW9uPjwvUmVzcG9uc2l2ZVByb2ZpbGU+
+    </value>
+  </data>
+  <data name="incomingChip.ResponsiveProfiles1" type="Wisej.Base.ResponsiveProfile, Wisej.Framework" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        PFJlc3BvbnNpdmVQcm9maWxlIE5hbWU9IlRhYmxldCI+PExvY2F0aW9uIFR5cGU9IlBvaW50Ij4xNjIs
+        IDU2PC9Mb2NhdGlvbj48L1Jlc3BvbnNpdmVQcm9maWxlPg==
+    </value>
+  </data>
+  <data name="reorderChip.ResponsiveProfiles" type="Wisej.Base.ResponsiveProfile, Wisej.Framework" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        PFJlc3BvbnNpdmVQcm9maWxlIE5hbWU9IlBob25lIj48TG9jYXRpb24gVHlwZT0iUG9pbnQiPjE2LCA5
+        MDwvTG9jYXRpb24+PC9SZXNwb25zaXZlUHJvZmlsZT4=
+    </value>
+  </data>
+  <data name="reorderChip.ResponsiveProfiles1" type="Wisej.Base.ResponsiveProfile, Wisej.Framework" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        PFJlc3BvbnNpdmVQcm9maWxlIE5hbWU9IlRhYmxldCI+PExvY2F0aW9uIFR5cGU9IlBvaW50Ij4zMDgs
+        IDU2PC9Mb2NhdGlvbj48L1Jlc3BvbnNpdmVQcm9maWxlPg==
+    </value>
+  </data>
+  <data name="outOfStockChip.ResponsiveProfiles" type="Wisej.Base.ResponsiveProfile, Wisej.Framework" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        PFJlc3BvbnNpdmVQcm9maWxlIE5hbWU9IlBob25lIj48TG9jYXRpb24gVHlwZT0iUG9pbnQiPjE2Miwg
+        OTA8L0xvY2F0aW9uPjwvUmVzcG9uc2l2ZVByb2ZpbGU+
+    </value>
+  </data>
+  <data name="outOfStockChip.ResponsiveProfiles1" type="Wisej.Base.ResponsiveProfile, Wisej.Framework" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        PFJlc3BvbnNpdmVQcm9maWxlIE5hbWU9IlRhYmxldCI+PExvY2F0aW9uIFR5cGU9IlBvaW50Ij4xNiwg
+        OTA8L0xvY2F0aW9uPjwvUmVzcG9uc2l2ZVByb2ZpbGU+
+    </value>
+  </data>
+  <data name="discontinuedChip.ResponsiveProfiles" type="Wisej.Base.ResponsiveProfile, Wisej.Framework" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        PFJlc3BvbnNpdmVQcm9maWxlIE5hbWU9IlBob25lIj48TG9jYXRpb24gVHlwZT0iUG9pbnQiPjE2LCAx
+        MjQ8L0xvY2F0aW9uPjwvUmVzcG9uc2l2ZVByb2ZpbGU+
+    </value>
+  </data>
+  <data name="discontinuedChip.ResponsiveProfiles1" type="Wisej.Base.ResponsiveProfile, Wisej.Framework" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        PFJlc3BvbnNpdmVQcm9maWxlIE5hbWU9IlRhYmxldCI+PExvY2F0aW9uIFR5cGU9IlBvaW50Ij4xNjIs
+        IDkwPC9Mb2NhdGlvbj48L1Jlc3BvbnNpdmVQcm9maWxlPg==
+    </value>
+  </data>
 </root>

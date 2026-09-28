@@ -48,6 +48,7 @@ namespace Wisej.NorthwindDashboard.Views
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CustomersView));
 			Wisej.Web.ComponentTool componentTool1 = new Wisej.Web.ComponentTool();
 			Wisej.Web.ComponentTool componentTool2 = new Wisej.Web.ComponentTool();
 			Wisej.Web.DataGridViewCellStyle dataGridViewCellStyle1 = new Wisej.Web.DataGridViewCellStyle();
@@ -390,7 +391,7 @@ namespace Wisej.NorthwindDashboard.Views
 			this.colCompany.AutoSizeMode = Wisej.Web.DataGridViewAutoSizeColumnMode.Fill;
 			this.colCompany.DataPropertyName = "Company";
 			this.colCompany.HeaderText = "CUSTOMER";
-			this.colCompany.MinimumWidth = 240;
+			this.colCompany.MinimumWidth = 160;
 			this.colCompany.Name = "colCompany";
 			this.colCompany.Shape = Wisej.Web.AvatarShape.Rounded;
 			this.colCompany.Size = 32;
@@ -401,6 +402,7 @@ namespace Wisej.NorthwindDashboard.Views
 			this.colPlace.DataPropertyName = "Place";
 			this.colPlace.HeaderText = "LOCATION";
 			this.colPlace.Name = "colPlace";
+			this.colPlace.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("colPlace.ResponsiveProfiles"))));
 			this.colPlace.Width = 200;
 			//
 			// colOrders
@@ -412,6 +414,7 @@ namespace Wisej.NorthwindDashboard.Views
 			this.colOrders.HeaderStyle = dataGridViewCellStyle3;
 			this.colOrders.HeaderText = "ORDERS";
 			this.colOrders.Name = "colOrders";
+			this.colOrders.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("colOrders.ResponsiveProfiles"))));
 			this.colOrders.Width = 90;
 			//
 			// colRevenue
@@ -424,6 +427,7 @@ namespace Wisej.NorthwindDashboard.Views
 			this.colRevenue.HeaderStyle = dataGridViewCellStyle5;
 			this.colRevenue.HeaderText = "REVENUE";
 			this.colRevenue.Name = "colRevenue";
+			this.colRevenue.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("colRevenue.ResponsiveProfiles"))));
 			this.colRevenue.Width = 120;
 			//
 			// colTrend
@@ -432,6 +436,8 @@ namespace Wisej.NorthwindDashboard.Views
 			this.colTrend.DataPropertyName = "Trend";
 			this.colTrend.HeaderText = "TREND";
 			this.colTrend.Name = "colTrend";
+			this.colTrend.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("colTrend.ResponsiveProfiles"))));
+			this.colTrend.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("colTrend.ResponsiveProfiles1"))));
 			this.colTrend.Width = 150;
 			//
 			// colLastOrder
@@ -439,6 +445,8 @@ namespace Wisej.NorthwindDashboard.Views
 			this.colLastOrder.DataPropertyName = "LastOrderText";
 			this.colLastOrder.HeaderText = "LAST ORDER";
 			this.colLastOrder.Name = "colLastOrder";
+			this.colLastOrder.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("colLastOrder.ResponsiveProfiles"))));
+			this.colLastOrder.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("colLastOrder.ResponsiveProfiles1"))));
 			this.colLastOrder.Width = 130;
 			//
 			// colChange
@@ -446,6 +454,7 @@ namespace Wisej.NorthwindDashboard.Views
 			this.colChange.DataPropertyName = "ChangeText";
 			this.colChange.HeaderText = "VS. PRIOR";
 			this.colChange.Name = "colChange";
+			this.colChange.ResponsiveProfiles.Add(((Wisej.Base.ResponsiveProfile)(resources.GetObject("colChange.ResponsiveProfiles"))));
 			this.colChange.ToneMember = "ChangeTone";
 			this.colChange.Width = 110;
 			//

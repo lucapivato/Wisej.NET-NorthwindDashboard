@@ -98,6 +98,27 @@ namespace Wisej.NorthwindDashboard.Views
 			ApplyFilters();
 		}
 
+		/// <summary>
+		/// Gives the toolbar a second row on a tablet or a phone.
+		/// </summary>
+		/// <param name="e">Event data.</param>
+		/// <remarks>
+		/// The Tablet and Phone profiles (OrdersView.resx) dock the status chips above the search box and the filter
+		/// button; the chips wrap to two lines on a phone. The height of the toolbar's row is a row style, which
+		/// responsive properties do not cover.
+		/// </remarks>
+		protected override void OnResponsiveProfileChanged(ResponsiveProfileChangedEventArgs e)
+		{
+			base.OnResponsiveProfileChanged(e);
+
+			layout.RowStyles[0].Height = e.CurrentProfile.Name switch
+			{
+				"Phone" => 124,
+				"Tablet" => 92,
+				_ => 60
+			};
+		}
+
 		#endregion
 
 		#region Implementation

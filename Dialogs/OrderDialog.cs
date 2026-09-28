@@ -46,6 +46,10 @@ namespace Wisej.NorthwindDashboard.Dialogs
 		public OrderDialog()
 		{
 			InitializeComponent();
+
+			// The Phone profile (OrderDialog.resx) stacks the parties and the totals; the dialog takes the whole screen.
+			if (Application.ActiveProfile.Name == "Phone")
+				WindowState = FormWindowState.Maximized;
 		}
 
 		/// <summary>

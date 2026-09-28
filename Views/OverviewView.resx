@@ -117,40 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="colPeriodOrders.ResponsiveProfiles" type="Wisej.Base.ResponsiveProfile, Wisej.Framework" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="colUnitsTrend.ResponsiveProfiles" type="Wisej.Base.ResponsiveProfile, Wisej.Framework" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         PFJlc3BvbnNpdmVQcm9maWxlIE5hbWU9IlBob25lIj48VmlzaWJsZSBUeXBlPSJTeXN0ZW0uQm9vbGVh
         biI+RmFsc2U8L1Zpc2libGU+PC9SZXNwb25zaXZlUHJvZmlsZT4=
     </value>
   </data>
-  <data name="colPeriodAverage.ResponsiveProfiles" type="Wisej.Base.ResponsiveProfile, Wisej.Framework" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="colUnits.ResponsiveProfiles" type="Wisej.Base.ResponsiveProfile, Wisej.Framework" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         PFJlc3BvbnNpdmVQcm9maWxlIE5hbWU9IlBob25lIj48VmlzaWJsZSBUeXBlPSJTeXN0ZW0uQm9vbGVh
         biI+RmFsc2U8L1Zpc2libGU+PC9SZXNwb25zaXZlUHJvZmlsZT4=
     </value>
   </data>
-  <data name="colPeriodPrevious.ResponsiveProfiles" type="Wisej.Base.ResponsiveProfile, Wisej.Framework" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="colShare.ResponsiveProfiles" type="Wisej.Base.ResponsiveProfile, Wisej.Framework" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         PFJlc3BvbnNpdmVQcm9maWxlIE5hbWU9IlBob25lIj48VmlzaWJsZSBUeXBlPSJTeXN0ZW0uQm9vbGVh
         biI+RmFsc2U8L1Zpc2libGU+PC9SZXNwb25zaXZlUHJvZmlsZT4=
-    </value>
-  </data>
-  <data name="colPeriodPrevious.ResponsiveProfiles1" type="Wisej.Base.ResponsiveProfile, Wisej.Framework" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        PFJlc3BvbnNpdmVQcm9maWxlIE5hbWU9IlRhYmxldCI+PFZpc2libGUgVHlwZT0iU3lzdGVtLkJvb2xl
-        YW4iPkZhbHNlPC9WaXNpYmxlPjwvUmVzcG9uc2l2ZVByb2ZpbGU+
-    </value>
-  </data>
-  <data name="colPeriodRevenue.ResponsiveProfiles" type="Wisej.Base.ResponsiveProfile, Wisej.Framework" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        PFJlc3BvbnNpdmVQcm9maWxlIE5hbWU9IlBob25lIj48V2lkdGggVHlwZT0iU3lzdGVtLkludDMyIj4x
-        MTA8L1dpZHRoPjwvUmVzcG9uc2l2ZVByb2ZpbGU+
-    </value>
-  </data>
-  <data name="colPeriodChange.ResponsiveProfiles" type="Wisej.Base.ResponsiveProfile, Wisej.Framework" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        PFJlc3BvbnNpdmVQcm9maWxlIE5hbWU9IlBob25lIj48V2lkdGggVHlwZT0iU3lzdGVtLkludDMyIj45
-        NjwvV2lkdGg+PC9SZXNwb25zaXZlUHJvZmlsZT4=
     </value>
   </data>
 </root>
